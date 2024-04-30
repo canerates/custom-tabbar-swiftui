@@ -11,6 +11,12 @@
 		D3D3EFD92BE135DA00C57E15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3EFD82BE135DA00C57E15 /* ContentView.swift */; };
 		D3D3EFDB2BE135DD00C57E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D3EFDA2BE135DD00C57E15 /* Assets.xcassets */; };
 		D3D3EFDE2BE135DD00C57E15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D3EFDD2BE135DD00C57E15 /* Preview Assets.xcassets */; };
+		D3D3EFE52BE1367600C57E15 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3EFE42BE1367600C57E15 /* HomeView.swift */; };
+		D3D3EFE72BE1368400C57E15 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3EFE62BE1368400C57E15 /* LibraryView.swift */; };
+		D3D3EFEE2BE137D900C57E15 /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3EFED2BE137D900C57E15 /* CustomTabbar.swift */; };
+		D3D3EFF02BE1392E00C57E15 /* TabbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3EFEF2BE1392E00C57E15 /* TabbarButton.swift */; };
+		D3D3EFF22BE13C0400C57E15 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3EFF12BE13C0400C57E15 /* SettingView.swift */; };
+		D3D3EFF62BE13E0900C57E15 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3EFF52BE13E0900C57E15 /* ToggleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		D3D3EFD82BE135DA00C57E15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3D3EFDA2BE135DD00C57E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3D3EFDD2BE135DD00C57E15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3D3EFE42BE1367600C57E15 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D3D3EFE62BE1368400C57E15 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		D3D3EFED2BE137D900C57E15 /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
+		D3D3EFEF2BE1392E00C57E15 /* TabbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarButton.swift; sourceTree = "<group>"; };
+		D3D3EFF12BE13C0400C57E15 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		D3D3EFF52BE13E0900C57E15 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,10 @@
 		D3D3EFD52BE135DA00C57E15 /* Custom-Tabbar-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				D3D3EFD62BE135DA00C57E15 /* Custom_Tabbar_SwiftUIApp.swift */,
-				D3D3EFD82BE135DA00C57E15 /* ContentView.swift */,
+				D3D3EFEA2BE136B500C57E15 /* Tab Views */,
+				D3D3EFEC2BE136FE00C57E15 /* Tabbar */,
+				D3D3EFF42BE13DFC00C57E15 /* Shared */,
+				D3D3EFEB2BE136F600C57E15 /* Core */,
 				D3D3EFDA2BE135DD00C57E15 /* Assets.xcassets */,
 				D3D3EFDC2BE135DD00C57E15 /* Preview Content */,
 			);
@@ -65,6 +79,42 @@
 				D3D3EFDD2BE135DD00C57E15 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3D3EFEA2BE136B500C57E15 /* Tab Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3D3EFE42BE1367600C57E15 /* HomeView.swift */,
+				D3D3EFE62BE1368400C57E15 /* LibraryView.swift */,
+				D3D3EFF12BE13C0400C57E15 /* SettingView.swift */,
+			);
+			path = "Tab Views";
+			sourceTree = "<group>";
+		};
+		D3D3EFEB2BE136F600C57E15 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D3D3EFD62BE135DA00C57E15 /* Custom_Tabbar_SwiftUIApp.swift */,
+				D3D3EFD82BE135DA00C57E15 /* ContentView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D3D3EFEC2BE136FE00C57E15 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				D3D3EFED2BE137D900C57E15 /* CustomTabbar.swift */,
+				D3D3EFEF2BE1392E00C57E15 /* TabbarButton.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		D3D3EFF42BE13DFC00C57E15 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D3D3EFF52BE13E0900C57E15 /* ToggleButton.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +187,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D3EFEE2BE137D900C57E15 /* CustomTabbar.swift in Sources */,
+				D3D3EFE72BE1368400C57E15 /* LibraryView.swift in Sources */,
+				D3D3EFE52BE1367600C57E15 /* HomeView.swift in Sources */,
+				D3D3EFF62BE13E0900C57E15 /* ToggleButton.swift in Sources */,
 				D3D3EFD92BE135DA00C57E15 /* ContentView.swift in Sources */,
+				D3D3EFF22BE13C0400C57E15 /* SettingView.swift in Sources */,
+				D3D3EFF02BE1392E00C57E15 /* TabbarButton.swift in Sources */,
 				D3D3EFD72BE135DA00C57E15 /* Custom_Tabbar_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,8 +334,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +344,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.canerates.Custom-Tabbar-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,8 +368,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +378,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.canerates.Custom-Tabbar-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
